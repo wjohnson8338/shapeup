@@ -48,6 +48,76 @@ header img {
     /*border: 2px solid red;        Border */
 }
 
+
+/* ===========================================
+            
+            Navigation Menu
+
+==============================================*/
+#nav_list h2 {
+    margin-bottom: 5px;
+    text-align: center;
+}
+#nav_list ul {
+    list-style-type: none;
+}
+
+#nav_list ul li {
+    width: 90%;
+    margin: 0 auto .5em;
+}
+#nav_list ul li a {
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: lightsteelblue;
+    padding: .5em;
+    color:black;
+}
+
+#nav_list a:hover {
+    background-color:steelblue;
+    color:white;
+}
+
+#nav_menu {
+    margin: 0;
+}
+#nav_menu ul {
+    margin-bottom: 0;
+    list-style-type: none;
+    text-align: center;
+    border-top: 3.2px solid steelblue;
+    border-bottom: 1px solid steelblue;
+    background-color: lightsteelblue;
+    padding: 10px 0;
+}
+
+#nav_menu #last {
+    border-right: none;
+}
+#nav_menu li {
+    display: inline;
+    border-right: 2px solid black;
+    padding: 10px 3em;
+}
+#nav_menu ul ul {
+    display: none;
+}
+
+#nav_menu ul li a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+#nav_menu ul li a:hover {
+    color:red;
+    text-decoration: underline;
+}
+
+
+
 main {
     clear: both;
 }
@@ -75,6 +145,13 @@ section {
 }
 aside {
     width: 30%;
+}
+
+blockquote { 
+    width: 80%;
+    margin-left: 10%;
+    padding: 3px;
+    border-left: 25px solid salmon;
 }
 
 aside h3 {
