@@ -1,7 +1,8 @@
-# shapeupnofloat
-The Shape Up website without any float properties
+# shapeupflexed
+ Shape Up webpage using flexbox - 2023 Edition
 
-Live site:
 
-https://mroberts70.github.io/shapeupnofloat/
+
+https://mroberts70.github.io/shapeupflexed/
+
 

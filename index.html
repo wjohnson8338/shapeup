@@ -9,12 +9,13 @@
   	<meta name="keywords" content="health, exercise, diet, strength, cardio, stress, workout, eat right">
   	<meta name="author" content="Michael Roberts">
 
-	<!-- Viewport - Necessary for Responsive Design -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 
 	<!-- shiv/shim - Helps Internet Explorer older than v. 9 work correctly with html5 -->
 	<!--[if lt IE 9]> <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+
+
+	<!-- Viewport - Necessary for Responsive Design -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
 	<!-------------------------- Slicknav Links and Scripts -------------------------->
@@ -46,7 +47,7 @@
 
 <body>
 	<header class="clearfix">
-		<img src="images/shape_up_logo.png" alt="Logo Image">
+		<a href="index.html"><img src="images/shape_up_logo.png" alt="Click here to return to home page" title="Click here to return to home page"></a>
 		<div>
 			<h2>Shape Up!</h2>
 			<h3>Find the <span class="shadow">best</span> fit for you</h3>
@@ -133,7 +134,13 @@
 
 	<!--------------------------- Footer ----------------------------------->
 	<footer>
-		<p>&copy; 2023 Shape Up!</p>
+		<p>&copy; 2023 <span id="copyright"></span> Up!</p>
 	</footer>
+	<script>
+        window.onload = function() {
+            var d = new Date();
+            document.getElementById("copyright").innerHTML = d.getFullYear();
+        }
+    </script>
 </body>
 </html>
